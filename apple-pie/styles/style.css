@@ -5,13 +5,24 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-weight: lighter;
 }
 
@@ -21,4 +32,57 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.title h1 {
+  background-image: url("../images/apple-pie.jpg");
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: cover;
+  height: 800 px;
+  padding: 120px;
+  margin: 30px;
+  color: white;
+  text-align: center;
+}
+main{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.quote {
+  margin: 50px 30px 0px 30px;
+  font-size: 1.1em;
+  text-align: left;
+
+}
+
+#pcr ,#ri{
+  width: 300px;
+  margin: 30px auto 30px auto;
+  display: flex;
+  width: 250px;
+
+}
+
+.ingre ul {
+  list-style: none;
+}
+
+.ingre ul li:before {
+  content: "-";
+}
+
+
+
+section h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dir ol{
+  padding: 10px;
+  margin: 10px;
+}
+/*  to do parenthéses avant les numeros des étapes de cuisson
+ .dir ol li:before {
+  content:}*/
+
+
